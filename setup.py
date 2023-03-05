@@ -30,7 +30,7 @@ print("""
 █░░░░░░░░░░▄▀░░█░░▄▀░░░░░░░░░░█████░░▄▀░░█████░░▄▀░░░░░░▄▀░░█░░▄▀░░█████████
 █░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█████░░▄▀░░█████░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀░░█████████
 █░░░░░░░░░░░░░░█░░░░░░░░░░░░░░█████░░░░░░█████░░░░░░░░░░░░░░█░░░░░░█████████
-████████████████████████████████████████████████████████████████████████████ DOSST 1.1
+████████████████████████████████████████████████████████████████████████████ DOSST 1.1.2
 """)
 print()
 print("Welcome to DonutOS 1.1 BeggorraBear")
@@ -40,7 +40,7 @@ print("To install DonutOS to your PC type `install`, to view basic information t
 print()
 installer = ""
 while installer != "exit":
-   installer = input("DOSST #1.1 :> ").lower()
+   installer = input("DOSST #1.1.2 :> ").lower()
    if installer == "install":
       print()
       print("Starting the Installer....")
@@ -48,7 +48,7 @@ while installer != "exit":
       print()
       print("Getting Critical Updates... Checking Network...")
       print("Connecting to the server...")
-      for ch in "DonutOS Setup DOSST 1.1 https://sites.google.com/view/donutlinux/   " :
+      for ch in "DonutOS Setup DOSST 1.1.2 https://sites.google.com/view/donutlinux/   " :
          print(ch)
       os.system('clear')
       print("Detecting Disks...")
