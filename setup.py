@@ -30,17 +30,17 @@ print("""
 █░░░░░░░░░░▄▀░░█░░▄▀░░░░░░░░░░█████░░▄▀░░█████░░▄▀░░░░░░▄▀░░█░░▄▀░░█████████
 █░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█████░░▄▀░░█████░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀░░█████████
 █░░░░░░░░░░░░░░█░░░░░░░░░░░░░░█████░░░░░░█████░░░░░░░░░░░░░░█░░░░░░█████████
-████████████████████████████████████████████████████████████████████████████ DOSST 1.00
+████████████████████████████████████████████████████████████████████████████ DOSST 1.1
 """)
 print()
-print("Welcome to DonutOS 1.0 BeggorraBear")
+print("Welcome to DonutOS 1.1 BeggorraBear")
 print('DOSST')
 print()
 print("To install DonutOS to your PC type `install`, to view basic information type `about, to quit DOSST type `exit`.")
 print()
 installer = ""
 while installer != "exit":
-   installer = input("DOSST #1.00 :> ").lower()
+   installer = input("DOSST #1.1 :> ").lower()
    if installer == "install":
       print()
       print("Starting the Installer....")
@@ -48,7 +48,7 @@ while installer != "exit":
       print()
       print("Getting Critical Updates... Checking Network...")
       print("Connecting to the server...")
-      for ch in "DonutOS Setup DOSST 1.00 https://sites.google.com/view/donutlinux/   " :
+      for ch in "DonutOS Setup DOSST 1.1 https://sites.google.com/view/donutlinux/   " :
          print(ch)
       os.system('clear')
       print("Detecting Disks...")
@@ -94,6 +94,7 @@ while installer != "exit":
             reboot = input("Do you want to reboot your system now? (yes/no) ? : ")
             if reboot == "yes":
                print("Rebooting to your new OS")
+               print("The DonutOS")
                os.system('sudo reboot')
             else:
                break
@@ -105,9 +106,9 @@ while installer != "exit":
 
    elif installer == "about":
       print()
-      print("DonutOS 1.0 BeggorraBear Setup")
+      print("DonutOS 1.1 BeggorraBear Setup")
       print("Setup UI : DOSST (DonutOS Setup Tool)")
-      print("v1.00")
+      print("v1.1")
       print("Gautham Nair")
       print()
    elif installer == "exit" or installer == "quit":
