@@ -30,17 +30,17 @@ print("""
 █░░░░░░░░░░▄▀░░█░░▄▀░░░░░░░░░░█████░░▄▀░░█████░░▄▀░░░░░░▄▀░░█░░▄▀░░█████████
 █░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█████░░▄▀░░█████░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀░░█████████
 █░░░░░░░░░░░░░░█░░░░░░░░░░░░░░█████░░░░░░█████░░░░░░░░░░░░░░█░░░░░░█████████
-████████████████████████████████████████████████████████████████████████████ DOSST 4.1 Munnar
+████████████████████████████████████████████████████████████████████████████ DOSST 5.0
 """)
 print()
-print("Welcome to DonutOS 4.1 Munnar")
+print("Welcome to DonutOS 5.0")
 print('DOSST')
 print()
 print("To install DonutOS to your PC type `install`, to view basic information type `about, to quit DOSST type `exit`.")
 print()
 installer = ""
 while installer != "exit":
-   installer = input("DOSST #4.1 :> ").lower()
+   installer = input("DOSST #5.0 :> ").lower()
    if installer == "install":
       print()
       print("Starting the Installer....")
@@ -94,7 +94,7 @@ while installer != "exit":
             reboot = input("Do you want to reboot your system now? (yes/no) ? : ")
             if reboot == "yes":
                print("Rebooting to your new OS")
-               print("The DonutOS 4.1 Munnar")
+               print("The DonutOS 5.0")
                print("We can't wait for you to try the new DonutOS")
                os.system('sudo reboot')
             else:
@@ -107,9 +107,9 @@ while installer != "exit":
 
    elif installer == "about":
       print()
-      print("DonutOS 4.1 Munnar Setup")
+      print("DonutOS 5.0 Munnar Setup")
       print("Setup UI : DOSST (DonutOS Setup Tool)")
-      print("v4.1")
+      print("v5.0")
       print("Gautham Nair")
       print()
    elif installer == "exit" or installer == "quit":
